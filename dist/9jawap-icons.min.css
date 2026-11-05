@@ -1,0 +1,22 @@
+@font-face {
+  font-family: "9jawap Icons";
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url("./9jawap-icons.woff2") format("woff2"),
+       url("./9jawap-icons.woff") format("woff");
+}
+
+.jw {
+  display: inline-block;
+  font-family: "9jawap Icons" !important;
+  font-style: normal;
+  font-weight: 400;
+  font-variant: normal;
+  line-height: 1;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.jw-9jawap::before { content: "\e900"; }
